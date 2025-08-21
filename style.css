@@ -1,0 +1,86 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#sl2FormContainer, #admittedForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;      /* Aligns form fields to the left cross-axis */
+    justify-content: flex-start;  /* Aligns at top start */
+    background-color: #82b5e9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    text-align: left;             /* Ensures default text alignment is left */
+    min-height: 60vh;             /* Optional, to occupy viewport height */
+}
+
+/* Style for the form fields */
+footer {
+  position: static;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #55c5c3;
+  border-radius: 50px;
+}
+p{
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+
+.navbar{
+  background-color: #82b5e9;
+}
+
+.navbar-brand {
+  color: #000000 !important;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.header{
+  border-radius: 50px;
+}
+
+
+.body {
+  background-color: #c0c1c2; /* light gray */
+  align-items: flex;     /* vertical center */
+  justify-content: flex; /* horizontal center */ 
+}
+
+.divForms{
+   width: 100%;
+  max-width: 900px;
+  padding: 24px;
+  border-radius: 50px;
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+.center-wrap{
+  display: flex;
+  justify-content: center;      /* horizontal center */
+  padding: 40px 16px;           /* top/bottom space */
+}
+
+.header{
+
+  justify-content: flex;      /* horizontal center */
+  padding: 40px 16px;           /* top/bottom space */
+}
